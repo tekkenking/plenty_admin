@@ -1,0 +1,108 @@
+@charset "UTF-8";
+* {
+}
+@font-face {
+    font-family: "opensans";
+    src: url("../fonts/open-sans/OpenSans-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/open-sans/OpenSans-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: "opensans-light";
+    src: url("../fonts/open-sans/OpenSans-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/open-sans/OpenSans-Light.ttf") format("truetype");
+}
+.font-light {
+    font-family: "opensans-light",sans-serif;
+    font-weight: 100;
+}
+body {
+    font-family: "opensans",sans-serif;
+    font-weight: 400;
+}
+.form-signin, .form-signup {
+    margin: 0 auto;
+    max-width: 430px;
+    padding: 15px;
+}
+.form-signin .form-signin-heading, .form-signin .checkbox, .form-signup .checkbox, .form-signup .form-signup-heading {
+    margin-bottom: 10px;
+}
+.form-signin .checkbox, .form-signup .checkbox {
+    font-weight: normal;
+}
+.form-signin .form-control, .form-signup .form-control {
+    box-sizing: border-box;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    position: relative;
+}
+.form-signin .form-control:focus, .form-signup .form-control:focus {
+    z-index: 2;
+}
+.has-error {
+}
+.has-error:focus {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 6px #ce8483;
+}
+.has-error, .has-error:focus {
+    border-color: #a94442;
+}
+.mesh-input-group *:first-child {
+    border-bottom: medium none !important;
+    border-radius: 5px 5px 0 0 !important;
+}
+.mesh-input-group *:last-child {
+    border-radius: 0 0 5px 5px;
+    margin-bottom: 10px;
+}
+.mesh-input-group input:not(:last-child) {
+    border-bottom: 0 none;
+    border-radius: 0;
+}
+.right-side > .content-header > .breadcrumb > li + li::before {
+    content: "";
+}
+.action-buttonx {
+    display: inline-block !important;
+    float: right !important;
+}
+.action-buttonx > a {
+    margin-left: 5px !important;
+    margin-right: 5px !important;
+}
+.display-inline-block {
+    display: inline-block;
+}
+.icon-8 {
+    font-size: 8px;
+}
+.icon-15 {
+    font-size: 15px;
+}
+.icon-30 {
+    font-size: 30px;
+}
+.icon-40 {
+    font-size: 40px;
+}
+.dropzone {
+    border: 2px dashed #00bfff;
+    border-radius: 5px;
+    margin-top: 7px;
+    padding: 0;
+}
+.dropzone .dz-message {
+    background: #f5f5f5 none repeat scroll 0 0;
+    color: #bbbbbb;
+    font-size: 25px;
+    margin: 0;
+    padding: 10px 0;
+}
+.alert {
+    margin-left: 0;
+}
+.table .box {
+    margin-bottom: 0;
+}
+.nav-tabs{
+    margin-bottom: 15px;
+}
